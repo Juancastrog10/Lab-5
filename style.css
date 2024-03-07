@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    /*border: solid;*/
+    height: 70px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 4px 4px 12px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 4px 12px 0px rgba(0,0,0,0.75);
+    box-shadow: 4px 4px 12px 0px rgba(0,0,0,0.75);
+    background-color: rgb(254, 183, 69);
+    
+}
+#logo{
+    /*border: solid;*/
+    width: 200px;
+    position: absolute;
+    left: 50px;
+}
+#menu {
+    /*border: solid;*/
+    display: flex;
+    width: 700px;
+    justify-content: space-between;
+
+}
+#banner{
+    /* border: solid; */
+    height: 60vh;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(https://store.supercell.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-desktop.a1484fc3.png&w=1920&q=75);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 1px 1px 2px black;
+    font-size: 50px;
+
+}
+#productos{
+    /*border: solid;*/
+    height: 50vh;
+    /*background-color: rgb(213, 213, 213);*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 2rem;
+    background-color: rgb(73, 156, 234);
+
+}
+#productos2{
+    /*border: solid;*/
+    height: 40vh;
+    /*background-color: rgb(213, 213, 213);*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 2rem;
+    background-color: rgb(73, 156, 234);
+}
+.items{
+    /*border: solid;*/
+    height: 300px;
+    width:  300px;
+    -webkit-box-shadow: 4px 4px 12px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 4px 12px 0px rgba(0,0,0,0.75);
+    box-shadow: 4px 4px 12px 0px rgba(0,0,0,0.75);
+    background-image: url(https://i.pinimg.com/originals/a2/fb/23/a2fb230ac13e58c9232bc22892220593.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 10PX;
+}
+.abajo{
+    /*border: solid red;*/
+    height: 50%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: rgb(235, 230, 224);
+}
+
+#titulo{
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    color: rgb(73, 156, 234);
+    background-color: rgb(238, 235, 230);
+    text-shadow: 1px 1px 1px black;
+}
+#sign{
+    /*border: solid;*/
+    width: 100px;
+    position: absolute;
+    right: 50px;
+}
+.arriba1{
+   /* border: solid;*/
+    height: 50%;
+    background-image: url(https://store.supercell.com/_next/image?url=%2Fimages%2Fclashroyale%2F9e3361cd321a98bd4b51dc8214b43c4f.png&w=640&q=100);
+    background-size: cover;
+    background-position: center center;
+}
+.arriba2{
+   /* border: solid;*/
+    height: 50%;
+    background-image: url(https://store.supercell.com/_next/image?url=%2Fimages%2Fclashroyale%2F8d7efe3d206fff88c803ed23c2939a51.png&w=640&q=100);
+    background-size: cover;
+    background-position: center center;
+}
+.arriba3{
+   /* border: solid;*/
+    height: 50%;
+    background-image: url(https://store.supercell.com/_next/image?url=%2Fimages%2Fclashroyale%2F62e15921137b3d9d677f4b6b0bd839d2.png&w=640&q=100);
+    background-size: cover;
+    background-position: center center;
+}
+.arriba4{
+   /* border: solid;*/
+    height: 50%;
+    background-image: url(https://store.supercell.com/_next/image?url=%2Fimages%2Fclashroyale%2Fba69c801958b811e049c0d9157965b8e.png&w=640&q=100);
+    background-size: cover;
+    background-position: center center;   
+}
+.arriba5{
+    /*border: solid;*/
+    height: 50%;
+    background-image: url(https://store.supercell.com/_next/image?url=%2Fimages%2Fclashroyale%2F2a9094abf4c67b13c9c5230667a5bb78.png&w=640&q=100);
+    background-size: cover;
+    background-position: center center;
+}
+.arriba6{
+    /*border: solid;*/
+    height: 50%;
+    background-image: url(https://store.supercell.com/_next/image?url=%2Fimages%2Fclashroyale%2F94668008bdea686126844740e8fb0928.png&w=640&q=100);
+    background-size: cover;
+    background-position: center center;
+}
+input{
+    background-color: black;
+    color: white;
+    position: center center;
+    width: 6vw;
+    height: 4vh;
+    border-radius: 10px;
+    border-bottom: 0;
+}
+p{
+    color: gray;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+a{
+    color: rgb(73, 156, 234);
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+}
